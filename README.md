@@ -2,6 +2,10 @@
 
 This is a simple web application that demonstrates a linear regression problem. The application is built using Python and the Streamlit framework, and it follows the CRISP-DM methodology.
 
+## Live Demo
+
+You can view a live demo of the application here: [https://iotda-hw1-linear-regression.streamlit.app/](https://iotda-hw1-linear-regression.streamlit.app/)
+
 ## Features
 
 *   **Interactive Data Generation:** Users can generate their own data by specifying the slope (a), intercept (b), noise level, and the number of data points for a linear equation `y = ax + b`.

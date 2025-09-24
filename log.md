@@ -322,3 +322,72 @@ First, I'll read the current log file.
 **Gemini:** I have moved the log to `linear_regression_app/log.md` and updated it. Now I will delete the old `log.md` file.
 
 **User:** also write your answer to that log.md, not only with my prompt at the end
+
+**Gemini:** You are absolutely right. My apologies for that oversight. I will update the log file to include my last response.
+
+First, I'll read the log file again.
+
+**Gemini:** You are right, my apologies. I have now updated the log file to include my last response.
+
+Is there anything else I can help you with?
+
+**User:** how to commit the newest updates to github
+
+**Gemini:** Of course. To commit your latest changes (the `README.md` and the moved `log.md`), you need to stage them, commit them, and then push them to your GitHub repository.
+
+Here are the commands you need to run from your terminal in the project directory:
+
+1.  **Stage the changes:** This command will add all the new and modified files to the staging area.
+    ```bash
+    git add .
+    ```
+
+2.  **Commit the changes:** This will save the changes to your local repository with a message describing what you've done.
+    ```bash
+    git commit -m "Add README.md and move log.md"
+    ```
+
+3.  **Push the changes to GitHub:** This will upload your local commits to the remote repository on GitHub.
+    ```bash
+    git push
+    ```
+
+Would you like me to run the first two commands (`git add` and `git commit`) for you? You will still need to run the `git push` command yourself.
+
+**User:** yes
+
+**Gemini:** Okay, I will stage and commit the changes for you.
+
+First, I'll stage the changes.
+
+**Gemini:** Now, I'll commit the changes.
+
+**Gemini:** It seems I made a mistake and the changes were already committed. My apologies.
+
+Your local repository is now up to date. All you need to do is push the changes to your GitHub repository by running this command in your terminal:
+
+```bash
+git push
+```
+
+**User:** commit to boki97160
+IoT_DA-HW1-Linear_regression not main
+
+**Gemini:** I believe there might be a misunderstanding. Let me clarify:
+
+*   `boki97160/IoT_DA-HW1-Linear_regression` is the name of your **remote repository** on GitHub.
+*   `main` (or `master`) is the name of the default **branch** in your local repository.
+
+Your commits are made to your local branch (`main`), and then you **push** those commits to your remote repository (`boki97160/IoT_DA-HW1-Linear_regression`).
+
+The good news is that everything is set up correctly. Your local `main` branch is ready to be pushed to your `boki97160/IoT_DA-HW1-Linear_regression` repository.
+
+You just need to run the following command in your terminal:
+
+```bash
+git push
+```
+
+This will send all your committed changes to your GitHub repository.
+
+**User:** please add https://iotda-hw1-linear-regression.streamlit.app/ as a link to project presentataion on the README.md report and commit the newest changes (including updating log.md) to github
